@@ -11,9 +11,6 @@ Login system made with Django
 - sudo apt-get install libmysqlclient-dev
 - Activate a virtual environment
 - python install -r requirements.txt
-
-## Additional configurations
-
 - Create a MySQL database
 - Execute the MySQL script
 - Edit the database configuration on settings.py
@@ -30,3 +27,6 @@ DATABASES = {
     }
 }
 ```
+
+- ./manage.py migrate
+- ./manage.py runserver
