@@ -20,7 +20,7 @@ Login system made with Django
 - Install requirements
 ``pip3 install -r requirements.txt``
 - Create a MySQL database
-- Edit the database configuration on djangologin/settings.py
+- Edit the database configuration on djangologin/djangologin/settings.py
 
 ```
 DATABASES = {
@@ -35,5 +35,9 @@ DATABASES = {
 }
 ```
 
-- ``./djangologin/manage.py migrate``
-- ``./djangologin/manage.py runserver``
+- Apply migrations
+``python3 djangologin/manage.py migrate``
+- Create a new user
+``python3 djangologin/manage.py createsuperuser``
+- Start Django built-in web-server
+- ``python3 djangologin/manage.py runserver``
