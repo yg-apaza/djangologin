@@ -2,12 +2,14 @@
 
 Login system made with Django
 
-## Developing
+## Getting started
+
+### Installation
 
 - Install Python 3. Python 3 comes pre-installed as a default python interpreter for Ubuntu 18.04.
 
 ```shell
-sudo apt install python3-minimal
+sudo apt-get install python3-minimal
 ```
 
 - Install pip3
@@ -28,11 +30,13 @@ sudo apt-get install python3-dev
 sudo apt-get install mysql-server
 ```
 
-- Install MySQL libraries
+- Install MySQL development library
 
 ```shell
 sudo apt-get install libmysqlclient-dev
 ```
+
+### Initial configurations
 
 - Activate a virtual environment
 
@@ -70,6 +74,8 @@ DATABASES = {
 python3 manage.py migrate
 ```
 
+### Try the app
+
 - Create a new user
 
 ```shell
@@ -81,6 +87,8 @@ python3 manage.py createsuperuser
 ```shell
 python3 manage.py runserver
 ```
+
+### Additional configurations
 
 - Avoid to commit your database credentials
 
