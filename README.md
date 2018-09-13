@@ -4,7 +4,7 @@ Login system made with Django
 
 ## Developing
 
-- Install Python 3. Python 3 comes pre-installed as a default python interpreter for Ubuntu 18.04.
+1. Install Python 3. Python 3 comes pre-installed as a default python interpreter for Ubuntu 18.04.
 ``sudo apt install python3-minimal``
 - Install pip3
 ``sudo apt-get install python3-pip``
@@ -14,7 +14,7 @@ Login system made with Django
 ``sudo apt-get install mysql-server``
 - Install MySQL libraries
 ``sudo apt-get install libmysqlclient-dev``
-- Clone this repo and activate a virtual environment in the same directory
+- Activate a virtual environment
 ``python3 -m venv env``
 ``source env/bin/activate``
 - Install requirements
@@ -26,9 +26,9 @@ Login system made with Django
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'login',
-        'USER': 'root',
-        'PASSWORD': '123456',
+        'NAME': 'database-name',
+        'USER': 'database-user',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '3306'
     }
