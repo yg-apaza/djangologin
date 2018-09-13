@@ -4,8 +4,10 @@ Login system made with Django
 
 ## Developing
 
-1. Install Python 3. Python 3 comes pre-installed as a default python interpreter for Ubuntu 18.04.
+- Install Python 3. Python 3 comes pre-installed as a default python interpreter for Ubuntu 18.04.
+
 ``sudo apt install python3-minimal``
+
 - Install pip3
 ``sudo apt-get install python3-pip``
 - Install the standard development library for Python
