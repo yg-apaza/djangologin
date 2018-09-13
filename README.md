@@ -8,7 +8,7 @@ Login system made with Django
 ``sudo apt install python3-minimal``
 - Install pip3
 ``sudo apt-get install python3-pip``
-- Install development library for Python
+- Install the standard development library for Python
 ``sudo apt-get install python3-dev``
 - Install MySQL server
 ``sudo apt-get install mysql-server``
@@ -18,9 +18,9 @@ Login system made with Django
 ``python3 -m venv env``
 ``source env/bin/activate``
 - Install requirements
-``pip install -r requirements.txt``
+``pip3 install -r requirements.txt``
 - Create a MySQL database
-- Edit the database configuration on settings.py
+- Edit the database configuration on djangologin/settings.py
 
 ```
 DATABASES = {
