@@ -14,9 +14,11 @@ Login system made with Django
 ``sudo apt-get install mysql-server``
 - Install MySQL libraries
 ``sudo apt-get install libmysqlclient-dev``
-- Activate a virtual environment
+- Clone this repo and activate a virtual environment in the same directory
+``python3 -m venv env``
+``source env/bin/activate``
 - Install requirements
-``python install -r requirements.txt``
+``pip install -r requirements.txt``
 - Create a MySQL database
 - Edit the database configuration on settings.py
 
@@ -33,5 +35,5 @@ DATABASES = {
 }
 ```
 
-- ``./manage.py migrate``
-- ``./manage.py runserver``
+- ``./djangologin/manage.py migrate``
+- ``./djangologin/manage.py runserver``
